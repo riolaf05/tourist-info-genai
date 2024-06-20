@@ -1,7 +1,6 @@
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
-# import ollama
 
 # Embedder
 class EmbeddingFunction:
@@ -29,12 +28,6 @@ class EmbeddingFunction:
 
         elif parametro == "fast-bgeEmbedding":
             self.embedder = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
-
-        elif parametro == "ollama": #https://ollama.com/blog/embedding-models
-            self.embedder = ollama.embeddings(
-                model='mxbai-embed-large',
-                prompt='Llamas are members of the camelid family',
-            )
 
         elif parametro == "hkunlpEmbedding":
             model_name = "hkunlp/instructor-large"

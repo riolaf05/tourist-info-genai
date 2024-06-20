@@ -22,6 +22,7 @@ EXPOSE 8501
 # COPY .env .env
 RUN mkdir /documents/
 COPY utils/ utils/
+COPY my_graph.py my_graph.py 
 COPY main.py main.py 
 # COPY certs certs
 
