@@ -15,6 +15,8 @@ class TextSplitter:
             chunk_overlap=self.chunk_overlap,
         )
 
+    ##TODO SEMANTIC SPLIT REQUIERES SPACY INSTALLED!!!
+
     # def process(self, text):
     #     doc = self.nlp(text)
     #     sents = list(doc.sents)

@@ -1,8 +1,8 @@
-# References
+# Intro
 
-* [Build a basic LLM chat app
-](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)
+Tourist information chatbot implemented through Langchain and Langgraph.
 
-* [Retrieval Augmented Generation + Citations(RAG+C) with Cohere + Langchain + Qdrant](https://medium.com/@50_shades_of_gradient/retrieval-augmented-generation-citations-rag-c-with-cohere-langchain-qdrant-157f9b4cce22)
+# References 
 
-* [Exploring LangChain Chains & Agents: A Quick Overview](https://medium.com/@kbdhunga/exploring-langchain-chains-agents-a-quick-overview-9d0a8c4d7ba0)
+* [Langgraph reference](https://github.com/riolaf05/langgraph-rag-chatbot)
+* [Build an LLM RAG Chatbot With LangChain](https://realpython.com/build-llm-rag-chatbot-with-langchain/#prerequisites)

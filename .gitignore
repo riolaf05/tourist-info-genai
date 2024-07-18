@@ -1,3 +1,10 @@
-documents
+**.zip
+**.backup
+**layer/
 .env
-record_manager_cache.sql
+**venv/
+**__pycache__
+dist/
+**record_manager_*
+**__pycache__
+**documents
